@@ -1,5 +1,7 @@
 # Random Quote App
-A React Advice App using react on the front end. <br/>It make get requests to Advice Slip JSON API to get advice
+A React Advice App using react on the front end. <br/>
+It make get requests to Advice Slip JSON API to get <br/>
+advice
 
 ## Live Site
 
