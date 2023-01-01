@@ -1,18 +1,17 @@
 html {
-    background-image: url("https://pixabay.com/images/id-792083/");
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #root {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     height: 100vh;
+    padding: 10px;
 }
 
 .container {
-    width: 400px;
+    width: 40%;
     display: flex;
     border-radius: 10px;
     flex-direction: column;
@@ -25,6 +24,7 @@ html {
 .container button {
     background-color: #FFFFFF;
     padding: 20px;
+    letter-spacing: 1px;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.5s;
@@ -33,4 +33,11 @@ html {
 .container button:hover {
     background-color: #000000;
     color: #FFFFFF;
+}
+  
+@media (max-width: 600px) {
+    .container {
+        width: 80%;
+        padding: 20px;
+    }
 }
