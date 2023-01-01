@@ -1,6 +1,10 @@
 # Random Quote App
 A React Advice App using react on the front end and we'll make get requests to Advice Slip JSON API.
 
+## Live Site
+
+- https://quttro.netlify.app/
+
 ## Tech Stack
 
 - Language: Javascript, HTML, CSS
@@ -10,10 +14,6 @@ A React Advice App using react on the front end and we'll make get requests to A
 ## Features
 
 - Random quote generate using button click
-
-## Live Site
-
-- https://quttro.netlify.app/
 
 ## Installation
 
